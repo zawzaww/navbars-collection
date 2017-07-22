@@ -5,10 +5,10 @@ android {
     buildToolsVersion '25.0.0'
     defaultConfig {
         applicationId "substratum.zawzaw.pureznavbars"
-        minSdkVersion 23
+        minSdkVersion 24
         targetSdkVersion 24
         versionCode 2
-        versionName '2.0'
+        versionName '2.1'
     }
     buildTypes {
         def BOOLEAN = "boolean"
@@ -20,14 +20,14 @@ android {
         debug {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            buildConfigField(BOOLEAN, ANTI_PIRACY, TRUE)
-            buildConfigField(BOOLEAN, SUBSTRATE_MODULE, TRUE) // CHANGE FALSE TO TRUE TO ENABLE
+            buildConfigField(BOOLEAN, ANTI_PIRACY, FALSE)
+            buildConfigField(BOOLEAN, SUBSTRATE_MODULE, FALSE) // CHANGE FALSE TO TRUE TO ENABLE
         }
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            buildConfigField(BOOLEAN, ANTI_PIRACY, TRUE)
-            buildConfigField(BOOLEAN, SUBSTRATE_MODULE, TRUE) // CHANGE FALSE TO TRUE TO ENABLE
+            buildConfigField(BOOLEAN, ANTI_PIRACY, FALSE)
+            buildConfigField(BOOLEAN, SUBSTRATE_MODULE, FALSE) // CHANGE FALSE TO TRUE TO ENABLE
         }
     }
     productFlavors {
@@ -40,3 +40,4 @@ dependencies {
     compile 'com.github.javiersantos:PiracyChecker:0.0.2'
     compile project(':substrate')
 }
+

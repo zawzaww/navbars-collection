@@ -37,7 +37,7 @@
             android:value="all"/>
         <meta-data
             android:name="Substratum_Plugin"
-            android:value="6.0.0"/>
+            android:value="7.0.2"/>
     </application>
 
 </manifest>
