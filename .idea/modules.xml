@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PureZ-NavBars-Substratum.iml" filepath="$PROJECT_DIR$/PureZ-NavBars-Substratum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PureZ-NavBars-Collecion.iml" filepath="$PROJECT_DIR$/PureZ-NavBars-Collecion.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/substrate/substrate.iml" filepath="$PROJECT_DIR$/substrate/substrate.iml" />
     </modules>

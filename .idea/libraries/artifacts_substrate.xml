@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="artifacts:substrate">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/substrate.aar/2df639ddf2f01927cac2e6256d894915/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/substrate.aar/2df639ddf2f01927cac2e6256d894915/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
