@@ -11,23 +11,13 @@ android {
         versionName '3.0'
     }
     buildTypes {
-        def BOOLEAN = "boolean"
-        def TRUE = "true"
-        def FALSE = "false"
-        def ANTI_PIRACY = "ENABLE_ANTI_PIRACY"
-        def SUBSTRATE_MODULE = "SUBSTRATE_MODULE"
-
         debug {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            buildConfigField(BOOLEAN, ANTI_PIRACY, FALSE)
-            buildConfigField(BOOLEAN, SUBSTRATE_MODULE, FALSE) // CHANGE FALSE TO TRUE TO ENABLE
         }
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            buildConfigField(BOOLEAN, ANTI_PIRACY, FALSE)
-            buildConfigField(BOOLEAN, SUBSTRATE_MODULE, FALSE) // CHANGE FALSE TO TRUE TO ENABLE
         }
     }
     productFlavors {
@@ -36,8 +26,6 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
-    compile 'com.github.javiersantos:PiracyChecker:0.0.2'
+    compile 'com.github.javiersantos:PiracyChecker:1.1'
     compile project(':substrate')
 }
-

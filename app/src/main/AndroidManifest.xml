@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-    package="purez.zawzaw.navbarscollection">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="purez.zawzaw.navbarscollection"
+          android:installLocation="internalOnly">
 
     <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+	
+	<uses-feature
+        android:name="projekt.purez.zawzaw"
+        android:required="false" />
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/ThemeName"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        tools:node="replace">
+        android:theme="@style/DialogStyle"
+        tools:node="replace"
+        tools:ignore="GoogleAppIndexingWarning">
 
         <activity android:name="purez.zawzaw.navbarscollection.SubstratumLauncher">
             <intent-filter>
@@ -26,32 +33,32 @@
 
         <meta-data
             android:name="Substratum_Legacy"
-            android:value="true"/>
+            android:value="true" />
 
         <meta-data
             android:name="Substratum_Name"
-            android:value="@string/ThemeName"/>
+            android:value="@string/ThemeName" />
 
         <meta-data
             android:name="Substratum_Author"
-            android:value="@string/ThemeAuthor"/>
+            android:value="@string/ThemeAuthor" />
 
         <meta-data
             android:name="Substratum_Email"
-            android:value="zawzawit.459@gmail.com"/>
+            android:value="zawzawit.459@gmail.com" />
 
         <meta-data
             android:name="Substratum_Samsung"
-            android:value="false"/>
-       
+            android:value="false" />
+
         <meta-data
             android:name="Substratum_ThemeReady"
-            android:value="all"/>
+            android:value="all" />
 
         <meta-data
             android:name="Substratum_Plugin"
             android:value="7.0.6"/>
 
     </application>
-
 </manifest>
+
