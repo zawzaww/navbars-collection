@@ -1,4 +1,4 @@
-# PureZ NavBars Collecion
+# PureZ NavBars Collection
 
 Substratum Theme Engine: PureZ NavBars Collection for Substratum/OMS/RRO
 
@@ -19,12 +19,12 @@ Substratum Theme Engine: PureZ NavBars Collection for Substratum/OMS/RRO
 <img src="https://s20.postimg.org/w4vnyhvdp/20170121_202658.jpg" />
 <img src="https://s20.postimg.org/jritrl5p9/20170121_202711.jpg" />
 
-Requirements :
+Requirements:
 - Android 7.0 and Up
 - Substratum/OMS/RRO Support ROM
 - Substratum Theme Manager (Get on Google Playstore)
 
-How To Install :
+How To Install:
 - Download PureZ NavBars Theme
 - Open Substratum Theme Manager
 - Select Overlays
