@@ -14,8 +14,6 @@
 *.pydevproject
 .metadata
 .gradle
-.gradle/buildOutputCleanup
-.gradle/4.4-20171031235950+0000
 bin/
 *.tmp
 *.bak
