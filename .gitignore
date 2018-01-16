@@ -14,7 +14,7 @@
 *.pydevproject
 .metadata
 .gradle
-.gradle/buildOutputCleanup/cache.properties
+*.gradle/buildOutputCleanup/cache.properties
 bin/
 *.tmp
 *.bak
